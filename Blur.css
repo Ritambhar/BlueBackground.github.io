@@ -26,7 +26,7 @@ section {
     display: flex;
     justify-content: center; /*this is actually making the text in center vertically*/
     align-items: center; /*this is actually making the text in center vertically*/
-    background: url("74948915.jpg") fixed;
+    background: url("http://www.toca-ch.com/data/walls/130/26259804.jpg") fixed;
     height: 100%;
     width: 100%;
 }
@@ -69,6 +69,6 @@ span {
     right: -1px;
     bottom: -1px;
     left: -1px;
-    background: url("74948915.jpg") fixed;
+    background: url("http://www.toca-ch.com/data/walls/130/26259804.jpg") fixed;
     filter: blur(2px);
 }
