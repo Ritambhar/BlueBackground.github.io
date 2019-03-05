@@ -1,0 +1,74 @@
+/*.section {
+    display: flex;
+    justify-content: center; /*this is actually making the text in center vertically
+    align-items: center; /*this is actually making the text in center horizontally
+    position: relative;
+    height: 100%;
+    background: url("74948915.jpg");
+}
+
+.section_text {
+    position: relative;
+    font-size: 70px;
+    padding: 10px;
+    box-shadow: 0 5px 25px 0 black;
+    width: 25%;
+    text-align: center;
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center; /*this is actually making the text in center vertically*/
+    align-items: center; /*this is actually making the text in center vertically*/
+    background: url("74948915.jpg") fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    position: absolute;
+    left: 40%;
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+    /*box-shadow: 0 5px 15px black;*/
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.6);
+
+    overflow: hidden;
+    color: black;
+    font-size: 120%;
+    border: white 0 solid;
+}
+
+h2, p {
+    position: relative;
+    margin: 0 0 20px;
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 280%;
+}
+
+span {
+    font-size: 160%;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    background: url("74948915.jpg") fixed;
+    filter: blur(2px);
+}
